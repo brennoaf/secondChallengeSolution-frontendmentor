@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body{
+    background-color: hsl(217, 54%, 11%);
+    
+  }
+  
+  .main-tale{
+    width: 255px;
+    height: 435px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    
+  }
+  
+  .page-screen{
+    display: flex;
+    width:100%;
+    height:100%;
+    
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+  }
+  
+  .product-content{
+    align-items:center;
+    justify-content: center;
+    
+  }
+  
+  .product-image{
+    height: 220px;
+    width: 220px;
+    margin-top: 17px;
+    margin-left: 7%;
+    overflow: hidden;
+    
+    background: url('/images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    border-radius: 7px;
+
+  }
+  .product-image-hover{
+    opacity: 0;
+
+  }
+  
+  .product-image-hover:hover{
+    opacity: 1;
+
+  }
+
+  .product-hover-color{
+    z-index: 1;
+    position: absolute;
+    height: 220px;
+    width: 220px;
+
+    background-color:rgb(0, 255, 255);
+    opacity: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    border-radius: 7px;
+
+  }
+
+  .eye-icon-hover{
+    position:absolute;
+    display: grid;
+    z-index: 2;
+    margin-left: 36.3%;
+    margin-top: 36.5%;
+    opacity: 1.0;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    background-image: url(/images/icon-view.svg);
+    background-size: cover;
+
+  }
+
+  .product-text-box{
+    display: grid;
+    margin-left: 7%;
+    font-family: 'Outfit', sans-serif;
+    padding-right: 14px;
+
+  }
+  
+  .product-title{
+    margin-top: 18px;
+    font-weight: 500;
+    color: white;
+
+  }
+  
+  .product-title:hover{
+    color: cyan;
+  }
+
+  .product-description{
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 13.4px;
+    color: #7a90b0;
+  }
+
+  .product-value{
+    margin-left: 13px;
+    margin-top: 16px;
+
+    font-weight: 600;
+    font-size: 11.8px;
+    color: hsl(178, 100%, 50%);
+
+  }
+
+  .eth-icon{
+    position: absolute;
+    width:3%;
+    margin-top:42%;
+
+  }
+
+  .icon-clock{
+    width: 5%;
+    position: absolute;
+    justify-self: right;
+    margin-right: 25%;
+    margin-top: 42.3%;
+
+  }
+
+  .remain-product-time{
+    position: absolute;
+    justify-self: right;
+    margin-top: 41.5%;
+    margin-right: 5px;
+
+    font-size: 11.8px;
+    color: #8aa3c4;
+
+  }
+
+  .profile-line-divisor{
+    margin-top: 17px;
+    margin-right: 4px;
+    border: 1px solid #1a2c44;
+  }
+
+  .seller-presentation-box{
+    margin-left: 7%;
+    font-family: 'Outfit', sans-serif;
+
+  }
+
+  .profile-picture{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-top: 10px;
+
+    background-image: url('/images/image-avatar.png');
+    background-size: cover;
+
+    border-radius: 100px;
+    border: 1px solid white;
+
+  }
+
+  .seller-presentation{
+    position: absolute;
+    margin-top: 14.5px;
+    margin-left: 36px;
+
+    font-size: 12px;
+    color: #7a90b0;
+
+  }
+
+  .seller-name{
+    color: white;
+    font-weight: 300;
+
+  }
+
+  .seller-name:hover{
+    color: cyan;
+  }
